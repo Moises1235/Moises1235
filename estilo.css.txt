@@ -1,0 +1,10 @@
+    <style type="text/css">
+   p{
+        color: red;
+        font-size: 25px;
+   }
+  h1{ 
+      color: green;
+                
+          }
+</style>
