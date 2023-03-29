@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <link href="estilo.css" rel="stylesheet"/>
     <title>Curriculo</title>
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+      }
+
+      div {
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
+
+      p{
+          font-size: 40px;
+          font-family: serif;
+          color:blue;
+          text-align: center;
+          animation: animate 
+              1.5S linear infinite;
+      }
+
+      @keyframes animate {
+          0% {
+              opacity: 10;
+              color:darkred
+          }
+
+          25% {
+              opacity: 2.7;
+              color:green
+          }
+          50%{
+            opacity: 5;
+            color:blueviolet
+          }
+          100% {
+              opacity: 2;
+              color:blue;
+          }
+      }
+  </style>
   </head>
   <body>
     <img src="moises_foto.jpeg" alt="Foto para o curriculo" height="300px">
+
+
+<div> <h2>Trans milhas</h2></div>
+
+
+
+
     <h1>Moisés de Moura Oliveira</h1>
-    <p>Eu sou Moisés de Moura Oliveira, eu gosto de ir para a academia, jogo jogos no meu computador, curso informática, porém não pretendo seguir na área, pretendo cursar psicologia. Moro no Muquém, lá é um lugar bem calmo, não tem muitas coisas acontecendo, porém é divertido. Eu gosto de séries, meu game favorito é League of Legends.</p>
+    <p id="an">Eu sou Moisés de Moura Oliveira, eu gosto de ir para a academia, jogo jogos no meu computador, curso informática, porém não pretendo seguir na área, pretendo cursar psicologia. Moro no Muquém, lá é um lugar bem calmo, não tem muitas coisas acontecendo, porém é divertido. Eu gosto de séries, meu game favorito é League of Legends.</p>
     <hr>
     <h3>Experiências Profissionais</h3>
     <ul>
@@ -29,7 +78,7 @@
  
 
     <p> . </p>
-    <img  <img src="mateus_foto.jpeg" alt="Foto para o curriculo" height="300px">
+    <img  <img src="mateus_foto.jpeg" alt="Foto para o curriculo" height="300">
     <h1>Raimundo Mateus Coelho Correia</h1>
     <p>Eu sou Mateus, moro na Samambaia, lá é um lugar bom de morar, é bem tranquilo e calmo, gosto de ouvir música, meu cantor favorito é o Baco exu do blues, minha música preferida é lágrimas, e no tempo livre eu gosto de jogar League of Legends.</p>
     <hr>
