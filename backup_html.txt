@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Curriculo</title>
+  </head>
+  <body>
+    <img  <img src="moises_foto.jpeg" alt="Foto para o curriculo" height="300px">
+    <h1>Moisés de Moura Oliveira</h1>
+    <p>Eu sou Moisés de Moura Oliveira, eu gosto de ir para a academia, jogo jogos no meu computador, curso informática, porém não pretendo seguir na área, pretendo cursar psicologia. Moro no Muquém, lá é um lugar bem calmo, não tem muitas coisas acontecendo, porém é divertido. Eu gosto de séries, meu game favorito é League of Legends.</p>
+    <hr>
+    <h3>Experiências Profissionais</h3>
+    <ul>
+      <li>Peça, Muito barulho por nada</li>
+      <li>Projeto Guia passageiro</li>
+      <li>Mostra de Linguagens</li>
+    </ul>
+    <hr>
+    <h3>Cursos/Formação</h3>
+    <ul>
+      <li>Informática</li>
+      <li>Ensino Médio</li>
+      <li>Manutenção de Computadores</li>
+    </ul>
+    <hr>
+    <p>Telefone: 89988069454</p>
+    <p>Fale comigo:</p> <a href="https://www.instagram.com/moises_.moura/?igshid=ZDdkNTZiNTM%3D">Instagram</a>
+ 
+
+    <p> . </p>
+    <img  <img src="mateus_foto.jpeg" alt="Foto para o curriculo" height="300px">
+    <h1>Raimundo Mateus Coelho Correia</h1>
+    <p>Eu sou Mateus, moro na Samambaia, lá é um lugar bom de morar, é bem tranquilo e calmo, gosto de ouvir música, meu cantor favorito é o Baco exu do blues, minha música preferida é lágrimas, e no tempo livre eu gosto de jogar League of Legends.</p>
+    <hr>
+    <h3>Experiências Profissionais</h3>
+    <ul>
+      <li>Mostra de linguagens IFPI</li>
+      <li>Peça de teatro, Prometeu acorrentado</li>
+      <li>Projeto Posto Seguro</li>
+    </ul>
+    <hr>
+    <h3>Cursos/Formação</h3>
+    <ul>
+      <li>Informática</li>
+      <li>Ensino Médio</li>
+      <li>Manutenção de Computadores</li>
+    </ul>
+    <hr>
+ <a href="https://instagram.com/mteuscoellho">Instagram</a>
