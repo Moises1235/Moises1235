@@ -1,3 +1,22 @@
 p {
-   color: blue;
+   color:crimson;
+   text-align: left;
+   font-size: 18px;
  }
+
+*{
+  background-color:black;
+  border: 0cap;
+  
+}
+
+li, h1 {
+  text-align: left;
+  color:cornflowerblue;
+}
+.bio p{
+  color:cornflowerblue;
+}
+.resumo p{
+  color:blue;
+}
