@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <link href="estilo.css" rel="stylesheet"/>
-    <title>Curriculo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="estilocss.css">
+    <script src="js.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="player">
+    <div class="wrapper">
+        <div class="details">
+            <div class="tocando">TOCANDO x DE y</div>
+            <div class="imagem"></div>
+            <div class="musica_nome">Track Name</div>
+            <div class="artista">Track Artist</div>
+        </div>
+
+        <div class="slider_container">
+            <div class="tempo_inicial">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                <div class="tempo_total">00:00</div>
+        </div>
+
+        <div class="slider_container">
+            <i class="fa fa-volume-down"></i>
+                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                <i class="fa fa-volume-up"></i>
+        </div>
+
+        <div class="buttons">
+         <div class="Aleatorio">
+            <i class="fa fa-random fa-2x" aria-hidden="true" onclick="passarAleatorio()"></i>
+        </div>
+            <div class="voltar" onclick="prevTrack()">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                </div>
+                <div class="playpause-track" onclick="playTrack()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                </div>
+                <div class="botao-pause">
+                    <i class="fa fa-pause-circle fa-5x" aria-hidden="true" onclick="pauseTrack()"></i>
+                </div>
+                <div class="next-track" onclick="nextTrack()">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                </div>
+                <div class="repeat-track" onclick="repeatTrack()">
+                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                </div>
+                </div>
+        </div>
+
+        
+    </div>
 
 
-  </head>
-  <body>
-    <img src="moises_foto.jpeg" alt="Foto para o curriculo" height="300px">
-
-
-
-
-
-
-
-    <h1>Moisés de Moura Oliveira</h1>
-    <p id="an">Eu sou Moisés de Moura Oliveira, eu gosto de ir para a academia, jogo jogos no meu computador, curso informática, porém não pretendo seguir na área, pretendo cursar psicologia. Moro no Muquém, lá é um lugar bem calmo, não tem muitas coisas acontecendo, porém é divertido. Eu gosto de séries, meu game favorito é League of Legends.</p>
-    <hr>
-    <h3>Experiências Profissionais</h3>
-    <ul>
-      <li>Peça, Muito barulho por nada</li>
-      <li>Projeto Guia passageiro</li>
-      <li>Mostra de Linguagens</li>
-    </ul>
-    <hr>
-    <h3>Cursos/Formação</h3>
-    <ul>
-      <li>Informática</li>
-      <li>Ensino Médio</li>
-      <li>Manutenção de Computadores</li>
-    </ul>
-    <hr>
-    <p>Telefone: 89988069454</p>
-    <p>Fale comigo:</p> <a href="https://www.instagram.com/moises_.moura/?igshid=ZDdkNTZiNTM%3D">Instagram</a>
- 
-
-    <p> . </p>
-    <img  <img src="mateus_foto.jpeg" alt="Foto para o curriculo" height="300">
-    <h1>Raimundo Mateus Coelho Correia</h1>
-    <p>Eu sou Mateus, moro na Samambaia, lá é um lugar bom de morar, é bem tranquilo e calmo, gosto de ouvir música, meu cantor favorito é o Baco exu do blues, minha música preferida é lágrimas, e no tempo livre eu gosto de jogar League of Legends.</p>
-    <hr>
-    <h3>Experiências Profissionais</h3>
-    <ul>
-      <li>Mostra de linguagens IFPI</li>
-      <li>Peça de teatro, Prometeu acorrentado</li>
-      <li>Projeto Posto Seguro</li>
-    </ul>
-    <hr>
-    <h3>Cursos/Formação</h3>
-    <ul>
-      <li>Informática</li>
-      <li>Ensino Médio</li>
-      <li>Manutenção de Computadores</li>
-    </ul>
-    <hr>
- <a href="https://instagram.com/mteuscoellho">Instagram</a><br>
-    <a href="form.html">faça o formulario</a>
-    
+</body>
+</html>
